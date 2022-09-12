@@ -22,5 +22,13 @@ Bulk write (bulk):
 <img width="849" alt="Skjermbilde 2022-09-12 kl  15 41 51" src="https://user-images.githubusercontent.com/54098894/189681887-44af2e17-be6c-4ae6-8e7f-dfa1c13bc963.png">
 
 ### Experiment 2 screenshots
+
+The first map-reduce shows how much each person has spent on orders. This is useful information to know, both from and customer and a seller aspect.
+
+This map-reduce gives back an array with objects with customer id/name and total value of all their orders.
+
 <img width="485" alt="Skjermbilde 2022-09-12 kl  16 28 50" src="https://user-images.githubusercontent.com/54098894/189682806-da03993c-8d7d-4421-9c9b-75c3498e7753.png">
+
+The next map-reduce gives us information about how many orders containing each of the items, as well as total quantity for the orders. Count tells us in how many orders the item occurs in. One order can have more than one of an unique item, e.g. 3 apples in one order. Therefore qty (quantity) shows the total amount of ordered items. Avg (average) is (count / qty) and is the average number of items sold per order instance of the item.
+
 <img width="564" alt="Skjermbilde 2022-09-12 kl  16 32 37" src="https://user-images.githubusercontent.com/54098894/189682821-584cda2a-d663-46c2-a501-425e036fa2d7.png">
